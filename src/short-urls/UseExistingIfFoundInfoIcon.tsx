@@ -14,7 +14,7 @@ const InfoModal = ({ isOpen, toggle }: { isOpen: boolean; toggle: () => void }) 
         &nbsp;checkbox is checked, the server will return an existing short URL if it matches provided params.
       </p>
       <p>
-        These are the checks performed by Shlink in order to determine if an existing short URL should be returned:
+        These are the checks performed by Eliophot Link in order to determine if an existing short URL should be returned:
       </p>
       <ul>
         <li>

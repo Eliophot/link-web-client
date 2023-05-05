@@ -11,9 +11,9 @@ describe('<ServerError />', () => {
     [
       fromPartial<NotFoundServer>({}),
       {
-        found: ['Could not find this Shlink server.'],
+        found: ['Could not find this Eliophot Link server.'],
         notFound: [
-          'Oops! Could not connect to this Shlink server.',
+          'Oops! Could not connect to this Eliophot Link server.',
           'Make sure you have internet connection, and the server is properly configured and on-line.',
           /^Alternatively, if you think you may have miss-configured this server/,
         ],
@@ -23,11 +23,11 @@ describe('<ServerError />', () => {
       fromPartial<NonReachableServer>({ id: 'abc123' }),
       {
         found: [
-          'Oops! Could not connect to this Shlink server.',
+          'Oops! Could not connect to this Eliophot Link server.',
           'Make sure you have internet connection, and the server is properly configured and on-line.',
           /^Alternatively, if you think you may have miss-configured this server/,
         ],
-        notFound: ['Could not find this Shlink server.'],
+        notFound: ['Could not find this Eliophot Link server.'],
       },
     ],
   ])('renders expected information based on provided server type', (selectedServer, { found, notFound }) => {

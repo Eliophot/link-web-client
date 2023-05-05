@@ -24,7 +24,7 @@ export const VisitsSettings: FC<VisitsProps> = ({ settings, setVisitsSettings })
           { defaultInterval: currentDefaultInterval(settings), excludeBots },
         )}
       >
-        Exclude bots wherever possible (this option&lsquo;s effect might depend on Shlink server&lsquo;s version).
+        Exclude bots wherever possible (this option&lsquo;s effect might depend on Eliophot Link server&lsquo;s version).
         <FormText>
           The visits coming from potential bots will be <b>{settings.visits?.excludeBots ? 'excluded' : 'included'}</b>.
         </FormText>

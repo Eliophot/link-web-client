@@ -22,7 +22,7 @@ export const MainHeader = (ServersDropdown: FC) => () => {
   return (
     <Navbar color="primary" dark fixed="top" className="main-header" expand="md">
       <NavbarBrand tag={Link} to="/">
-        <ShlinkLogo className="main-header__brand-logo" color="white" /> Shlink
+        <ShlinkLogo className="main-header__brand-logo" color="white" /> Eliophot Link
       </NavbarBrand>
 
       <NavbarToggler onClick={toggleOpen}>

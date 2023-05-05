@@ -214,7 +214,7 @@ export const ShortUrlForm = (
             <div className="col-sm-6 mb-3">
               <SimpleCard title="Extra checks">
                 <ShortUrlFormCheckboxGroup
-                  infoTooltip="If checked, Shlink will try to reach the long URL, failing in case it's not publicly accessible."
+                  infoTooltip="If checked, Eliophot Link will try to reach the long URL, failing in case it's not publicly accessible."
                   checked={shortUrlData.validateUrl}
                   onChange={(validateUrl) => setShortUrlData({ ...shortUrlData, validateUrl })}
                 >
@@ -238,7 +238,7 @@ export const ShortUrlForm = (
             <div className="col-sm-6 mb-3">
               <SimpleCard title="Configure behavior">
                 <ShortUrlFormCheckboxGroup
-                  infoTooltip="This short URL will be included in the robots.txt for your Shlink instance, allowing web crawlers (like Google) to index it."
+                  infoTooltip="This short URL will be included in the robots.txt for your Eliophot Link instance, allowing web crawlers (like Google) to index it."
                   checked={shortUrlData.crawlable}
                   onChange={(crawlable) => setShortUrlData({ ...shortUrlData, crawlable })}
                 >

@@ -33,8 +33,8 @@ describe('<Home />', () => {
     expect(links).toHaveLength(expectedServers);
 
     if (Object.keys(servers).length === 0) {
-      expect(screen.getByText('This application will help you manage your Shlink servers.')).toBeInTheDocument();
-      expect(screen.getByText('Learn more about Shlink')).toBeInTheDocument();
+      expect(screen.getByText('This application will help you manage your Eliophot Link servers.')).toBeInTheDocument();
+      expect(screen.getByText('Learn more about Eliophot Link')).toBeInTheDocument();
     }
   });
 });

@@ -1,6 +1,6 @@
 export const manifest = {
-  short_name: 'Shlink',
-  name: 'Shlink',
+  short_name: 'Eliophot Link',
+  name: 'Eliophot Link',
   start_url: '/',
   display: 'standalone',
   theme_color: '#4696e5',

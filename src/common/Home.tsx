@@ -43,7 +43,7 @@ export const Home = ({ servers }: HomeProps) => {
             <ServersListGroup embedded servers={serversList}>
               {!hasServers && (
                 <div className="p-4 text-center">
-                  <p className="mb-5">This application will help you manage your Shlink servers.</p>
+                  <p className="mb-5">This application will help you manage your Eliophot Link servers.</p>
                   <p>
                     <Link to="/server/create" className="btn btn-outline-primary btn-lg me-2">
                       <FontAwesomeIcon icon={faPlus} /> <span className="ms-1">Add a server</span>
@@ -52,7 +52,7 @@ export const Home = ({ servers }: HomeProps) => {
                   <p className="mb-0 mt-5">
                     <ExternalLink href="https://shlink.io/documentation">
                       <small>
-                        <span className="me-1">Learn more about Shlink</span> <FontAwesomeIcon icon={faExternalLinkAlt} />
+                        <span className="me-1">Learn more about Eliophot Link</span> <FontAwesomeIcon icon={faExternalLinkAlt} />
                       </small>
                     </ExternalLink>
                   </p>
